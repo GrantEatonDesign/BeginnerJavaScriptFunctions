@@ -36,9 +36,9 @@ function getMilk(money) {
   console.log("moveRight");
   console.log("moveRight");
   
-  var moneyDividedByCost= Math.floor(money/1.5);
+  var numberOfBottles= Math.floor(money/1.5);
   
-  console.log("buy " + moneyDividedByCost + " bottles of milk");
+  console.log("buy " + numberOfBottles + " bottles of milk");
   
   console.log("moveLeft");
   console.log("moveDown");
