@@ -1,0 +1,8 @@
+//convert feet to meters
+
+function feetToMeters(feet, inches) {
+    var conversionEquation = (feet * 0.3048) + (inches * 0.0254);
+    return conversionEquation; 
+}
+
+console.log("Your height in meters is " + feetToMeters (5, 10) + ".");
