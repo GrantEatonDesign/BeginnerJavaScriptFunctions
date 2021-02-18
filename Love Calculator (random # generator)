@@ -1,0 +1,23 @@
+//love calculator 
+
+prompt("Person one:");
+prompt("Person two:");
+
+var loveScore = Math.random();
+loveScore = Math.floor((loveScore * 100) + 1);
+
+if (loveScore===100){
+    alert("The love percentage between these two people is a perfect" + loveScore + "%.")
+}
+
+if (loveScore > 80){
+    alert("The love connection is " + loveScore + "%. Their love is strong!");
+} 
+
+if (loveScore >30 && loveScore<=70){
+    alert("The love percentage between these two people is " + loveScore + "%. These two are alright. Nothin' special but not doomed.");
+} 
+
+if (loveScore <30){
+    alert("Sheesh! The love percentage between these two people is " + loveScore + "%. Couple's therapy here they come!");
+}
