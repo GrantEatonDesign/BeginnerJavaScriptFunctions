@@ -1,0 +1,10 @@
+var guestList = ["Anastasia", "Joel", "Parker", "Gabrielle", "Yianni", "George" ];
+
+var enterName = prompt ("Please enter your name");
+    
+    if ( guestList.includes(enterName)) {
+        alert("Welcome to Grant's party! Please enter and make yourself at home."); 
+    } else {
+        alert("Oops! Your name is not showing up in our list. Please make sure you registered.");
+    }
+
